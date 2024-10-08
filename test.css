@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Расположение элементов списка в одну строку */
+    margin: 0 15px; /* Отступы между ссылками */
+}
+
+h1, h2, p {
+    margin: 20px 0; /* Отступы сверху и снизу для заголовков и параграфов */
+}
+
+img {
+    display: block; /* Делает изображение блочным элементом */
+    margin: 0 auto; /* Автоматические отступы слева и справа */
+}
